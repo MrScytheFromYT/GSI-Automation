@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://dl.raaj52.workers.dev/DerpFest-11-Official-Alpha-raphael-20201217-1259.zip
-  ROM_NAME: DerpFest
-  ZIP_NAME: DerpFest GSI By Scythe
+  ROM_URL: https://downloads.corvusrom.com/0:/ginkgo/stable/Corvus_v8.0-Tsushima-ginkgo-12082020-OFFICIAL-2004.zip
+  ROM_NAME: Corvus OS for Android 9
+  ZIP_NAME: Corvus os 8.0 by scythe
   TZ: Asia/Kolkata
 jobs:
   build:
