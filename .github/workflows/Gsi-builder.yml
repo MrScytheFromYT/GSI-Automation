@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/INS-M017FXXU1BTI5-20200914180539.zip
-  ROM_NAME: OneUI
-  ZIP_NAME: oneui_2.5_m01s
+  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus6Oxygen_22.J.49_OTA_049_all_2011161942_9d1dafc7a.zip
+  ROM_NAME: OxygenOS
+  ZIP_NAME: oneplus_6t
   TZ: Asia/Kolkata
 jobs:
   build:
@@ -30,7 +30,7 @@ jobs:
             sudo -E apt-get -qq install git openjdk-8-jdk wget expect p7zip-full p7zip-rar
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/yashlearnpython/ErfanGSIs.git
+         run: git clone --recurse-submodules https://github.com/Area69Lab/ErfanGSIs.git
        
        - name: Setting up ErfanGSI requirements
          run: |
