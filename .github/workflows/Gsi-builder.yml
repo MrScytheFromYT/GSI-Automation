@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus6Oxygen_22.J.49_OTA_049_all_2011161942_9d1dafc7a.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: oneplus_6t
+  ROM_URL: https://androidfilehost.com/?fid=17248734326145680963
+  ROM_NAME: Miui
+  ZIP_NAME: Miui
   TZ: Asia/Kolkata
 jobs:
   build:
