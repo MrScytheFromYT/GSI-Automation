@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://androidfilehost.com/?fid=17248734326145680963
-  ROM_NAME: Miui
-  ZIP_NAME: Miui
+  ROM_URL: https://dl.raaj52.workers.dev/DerpFest-11-Official-Alpha-raphael-20201217-1259.zip
+  ROM_NAME: DerpFest
+  ZIP_NAME: DerpFest GSI By Scythe
   TZ: Asia/Kolkata
 jobs:
   build:
