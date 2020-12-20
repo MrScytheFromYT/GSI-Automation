@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://downloads.corvusrom.com/0:/ginkgo/stable/Corvus_v8.0-Tsushima-ginkgo-12082020-OFFICIAL-2004.zip
+  ROM_URL: https://sourceforge.net/projects/corvus-os/files/latest/download
   ROM_NAME: Generic
-  ZIP_NAME: Corvus os 8.0 by scythe
+  ZIP_NAME: Corvus os 8.5 Sage by scythe
   TZ: Asia/Kolkata
 jobs:
   build:
