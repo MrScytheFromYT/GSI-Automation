@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://sourceforge.net/projects/corvus-os/files/latest/download
-  ROM_NAME: Generic
-  ZIP_NAME: Corvus os 8.5 Sage by scythe
+  ROM_URL: https://download.pixelexperience.org/changelog/violet/PixelExperience_Plus_violet-10.0-20201222-0539-OFFICIAL.zip/
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel Experience 12/22/20
   TZ: Asia/Kolkata
 jobs:
   build:
