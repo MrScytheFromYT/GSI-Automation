@@ -3,9 +3,9 @@ name: Building GSI..
 on: [push]
 
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/OnePlus6Oxygen_22.J.49_OTA_049_all_2011161942_9d1dafc7a.zip
-  ROM_NAME: OxygenOS
-  ZIP_NAME: oneplus_6t
+  ROM_URL: https://download.pixelexperience.org/changelog/violet/PixelExperience_Plus_violet-10.0-20201222-0539-OFFICIAL.zip/
+  ROM_NAME: Pixel
+  ZIP_NAME: Pixel Experience
   TZ: Asia/Kolkata
 jobs:
   build:
